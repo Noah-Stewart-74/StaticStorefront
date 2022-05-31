@@ -1,7 +1,6 @@
 body {
     background: url(./assets/Dice.jpg) no-repeat fixed top center;
     background-size: cover;
-    color: red;
     font-size: 100%;
     margin: 0;
 }
@@ -11,10 +10,13 @@ body {
 }
 header {
     margin-left: 165px;
-    margin-top: -50px;
+    margin-top: -40px;
+    padding: 5px;
+    color: crimson;
     background: url(./assets/TableFlipping.jpg) fixed top center;
     background-size: contain;
-    border-radius: 3px;
+    border: ridge 5px green;
+    border-radius: 5px;
     font-size: 68%;
 }
 .login {
@@ -36,7 +38,7 @@ header {
 .button {
     background-color: skyblue;
     border: 1px solid transparent;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
     box-sizing: border-box;
     color: white;
@@ -63,7 +65,8 @@ h2 {
     position: fixed;
     z-index: 1;
     top: 20px;
-    border-radius: 3px;
+    border: 5px ridge green;
+    border-radius: 5px;
     background: silver;
     overflow-x: hidden;
     padding: 8px 0;
@@ -75,61 +78,51 @@ h2 {
     margin: 5px;
     width: 140px;
 }
-
-.button-15 {
-  background-image: linear-gradient(gold, goldenrod);
-  border: 1px solid #0077CC;
-  border-radius: 4px;
-  box-sizing: border-box;
-  color: black;
-  cursor: pointer;
-  direction: ltr;
-  display: block;
-  font-size: 17px;
-  letter-spacing: -.022em;
-  line-height: 1.47059;
-  width: 140px;
-  overflow: visible;
-  margin-left: 5px;
-  padding: 4px 15px;
-  text-align: center;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
+.button1 {
+    background-image: linear-gradient(gold, goldenrod);
+    border: 1px solid #0077CC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: block;
+    font-size: 17px;
+    letter-spacing: -.022em;
+    width: 140px;
+    overflow: visible;
+    margin-left: 5px;
+    padding: 4px 15px;
+    text-align: center;
 }
-
-.button-15:disabled {
-  cursor: default;
-  opacity: .3;
-}
-
-.button-15:hover {
-  background-image: linear-gradient(#51A9EE, #147BCD);
-  border-color: #1482D0;
-  text-decoration: none;
-}
-
-.button-15:active {
-  background-image: linear-gradient(#3D94D9, #0067B9);
-  border-color: #006DBC;
-  outline: none;
-}
-
-.button-15:focus {
-  box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
-  outline: none;
+.button1:hover {
+    background-image: linear-gradient(#51A9EE, #147BCD);
+    border-color: #1482D0;
+    text-decoration: none;
 }
 .maincont {
     margin-left: 165px;
     position: relative;
+    border: 5px green groove;
+    border-radius: 5px;
+    padding: 5px;
+    opacity: .75;
+    background-color: silver;
+}
+div.example {
+    border:  inset 10px;
+    display: inline-block;
 }
 footer {
     float: bottom;
     margin: 0;
-    background-color: snow;
+    background-color: silver;
     text-align: center;
     height: 4.2em;
-    border: 1px black inset;
+    border: 5px green groove;
+    border-radius: 5px;
+    padding: 5px;
     position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
